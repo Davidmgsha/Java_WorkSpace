@@ -1,3 +1,5 @@
+package Exercise3;
+
 public class TempConverter {
 
     public static double celsiusToFahrenheit(double celsius) {
