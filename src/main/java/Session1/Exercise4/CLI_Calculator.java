@@ -1,4 +1,4 @@
-package Exercise4;
+package Session1.Exercise4;
 import java.util.Scanner;
 public class CLI_Calculator {
     public static void main(String[] args){
