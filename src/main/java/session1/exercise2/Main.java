@@ -1,4 +1,4 @@
-package Session1.Exercise2;
+package session1.exercise2;
 
 public class Main{
     public static void main(String[] args){

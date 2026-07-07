@@ -1,4 +1,4 @@
-package Session2.Exercise3;
+package session2.exercise3;
 public class GradeClassifier {
     public static String classify(int score) {
 

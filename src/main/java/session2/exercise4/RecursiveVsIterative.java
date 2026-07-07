@@ -1,4 +1,4 @@
-package Session2.Exercise4;
+package session2.exercise4;
 public class RecursiveVsIterative {
     public static long factorialIterative(int n) {
         long result = 1;

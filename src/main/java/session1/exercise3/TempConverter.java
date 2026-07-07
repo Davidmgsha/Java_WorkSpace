@@ -1,4 +1,4 @@
-package Session1.Exercise3;
+package session1.exercise3;
 public class TempConverter{
     public static double celsiusToFahrenheit(double celsius){
 

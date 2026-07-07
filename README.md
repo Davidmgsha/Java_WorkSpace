@@ -18,9 +18,9 @@ A Command Line Interface (CLI) Calculator that:
   To Compile and Run the CLI Calculator use:
   From the project root directory:
   Compile:
-  javac -d out src/main/java/Session1/Exercise4/CLI_Calculator.java
+  javac -d out src/main/java/session1/exercise4/CLI_Calculator.java
   Run:
-  java -cp out Session1.Exercise4.CLI_Calculator
+  java -cp out session1.exercise4.CLI_Calculator
 
 Session 2
 Exercise 1
@@ -35,9 +35,9 @@ Otherwise, it prints the number itself and used:
 - The modulus operator (%) for checking divisibility
   From the project root directory:
   Compile:
-  javac -d out src/main/java/Session2/Exercise1/FizzBuzz.java
+  javac -d out src/main/java/session2/exercise1/FizzBuzz.java
   Run:
-  java -cp out Session2.Exercise1.FizzBuzz
+  java -cp out session2.exercise1.FizzBuzz
 
 Exercise 2
 This exercise demonstrates how to print a right-angled triangle pattern of asterisks (`*`).
@@ -49,9 +49,9 @@ The following concepts and operations were used:
 * Practised nested loops, loop control, and pattern printing techniques in Java.
   From the project root directory:
   Compile:
-  javac -d out src/main/java/Session2/Exercise1/AsterisksTriangle.java
+  javac -d out src/main/java/session2/exercise1/AsterisksTriangle.java
   Run:
-  java -cp out Session2.Exercise1.AsterisksTriangle
+  java -cp out session2.exercise1.AsterisksTriangle
 
 Exercise 3
 This exercise prints a hollow diamond pattern using asterisks (`*`). The diamond is generated through a method named
@@ -67,9 +67,9 @@ This involved:
 - Breaking a complex problem into smaller logical parts
   From the project root directory:
   Compile:
-  javac -d out src/main/java/Session2/Exercise1/AsterisksDiamond.java
+  javac -d out src/main/java/session2/exercise1/AsterisksDiamond.java
   Run:
-  java -cp out Session2.Exercise1.AsterisksDiamond
+  java -cp out session2.exercise1.AsterisksDiamond
 
 2. Number Guessing Game
 This project is a simple Java console application that implements a Number Guessing Game.
@@ -94,9 +94,9 @@ Features in:
 
 From the project root directory:
 Compile:
-javac -d out src/main/java/Session2/Exercise2/GuessingGame.java
+javac -d out src/main/java/session2/exercise2/GuessingGame.java
 Run:
-java -cp out Session2.Exercise2.GuessingGame
+java -cp out session2.exercise2.GuessingGame
 
 3. Grade Classifier
    Created a static method classify(int score) that returns a grade as a String.
@@ -117,9 +117,9 @@ java -cp out Session2.Exercise2.GuessingGame
 
 From the project root directory:
 Compile:
-javac -d out src/main/java/Session2/Exercise3/GradeClassifier.java
+javac -d out src/main/java/session2/exercise3/GradeClassifier.java
 Run:
-java -cp out Session2.Exercise3.GradeClassifier
+java -cp out session2.exercise3.GradeClassifier
 
 4. RecursiveVsIterative
 
@@ -158,6 +158,28 @@ n = 15 Iterative = 610 Recursive = 610
 
 From the project root directory:
 Compile:
-javac -d out src/main/java/Session2/Exercise4/RecursiveVsIterative.java
+javac -d out src/main/java/session2/exercise4/RecursiveVsIterative.java
 Run:
-java -cp out Session2.Exercise4.RecursiveVsIterative
+java -cp out session2.exercise4.RecursiveVsIterative
+
+Session 3
+Exercise1
+Student Grade Tracker
+Description
+A simple Java program that stores multiple grades for each student using a `HashMap` and `ArrayList`.
+Features:
+- Add grades for students.
+- Calculate each student's average grade.
+- Find the top-performing student.
+- Display a report of students, their grades, and averages.
+Concepts Used: 
+- HashMap
+- ArrayList
+- Methods
+- Enhanced for-each loop
+- Map.Entry
+From the project root directory:
+Compile:
+javac -d out src/main/java/session3/exercise1/StudentGradeTracker.java
+Run:
+java -cp out session3.exercise1.StudentGradeTracker

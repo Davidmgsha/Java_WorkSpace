@@ -1,4 +1,4 @@
-package Session2.Exercise1;
+package session2.exercise1;
 
 public class AsterisksTriangle {
     public static void main(String[] args){

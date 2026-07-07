@@ -1,4 +1,4 @@
-package Session2.Exercise2;
+package session2.exercise2;
 import java.util.Scanner;
 public class GuessingGame {
     public static void main(String[] args) {
