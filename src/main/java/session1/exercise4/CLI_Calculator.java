@@ -24,7 +24,7 @@ public class CLI_Calculator {
         }
         else if(operator.equals("/")){
             if(secondNumber == 0){
-                System.out.println("It is impossible to divide a number by 0");
+                System.err.println("It is impossible to divide a number by 0");
             }
             else{
                 double result = firstNumber / secondNumber;
@@ -32,7 +32,7 @@ public class CLI_Calculator {
             }
         }
         else{
-            System.out.println("Try to use a valid operator");
+            System.err.println("Try to use a valid operator");
         }
         myScanner.close();
     }
